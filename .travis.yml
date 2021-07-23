@@ -1,0 +1,13 @@
+language: cpp
+sudo: required
+dist: trusty
+compiler:
+- gcc
+os:
+- linux
+before_install:
+script:
+- ./build_for_linux.sh
+
+
+
